@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Shared notebook environment for the hydrometallurgical recycling resource-assessment case study"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "bw-functional",
     "bw2calc",
     "bw2data",
     "bw2io",

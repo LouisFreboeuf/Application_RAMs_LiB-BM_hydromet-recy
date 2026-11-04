@@ -75,6 +75,23 @@ wheels = [
 ]
 
 [[package]]
+name = "bw-functional"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "blinker" },
+    { name = "bw-processing" },
+    { name = "bw2data" },
+    { name = "bw2io" },
+    { name = "loguru" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/28/da/43e28259d0b676495d5e53de42b985bf3cf4a68fed4c2f4902e1da99681b/bw_functional-0.1.0.tar.gz", hash = "sha256:a254639c490cbd905500ca2935fdd1c0c5abf65bd6a7e5e51f583d1a7f9ea19b", size = 27360, upload-time = "2026-10-03T14:26:53.589Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/87/c8/4150f1f3ddb4ed2971492f839c4c243c5ed322e280532d26c32c0ad97c30/bw_functional-0.1.0-py3-none-any.whl", hash = "sha256:28f36fea7bb04869ffece49b2820b3347589aa254c4c7cc1784ae03c11af166c", size = 22990, upload-time = "2026-10-03T14:26:52.428Z" },
+]
+
+[[package]]
 name = "bw-migrations"
 version = "0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1266,6 +1283,7 @@ name = "resource-assessment-hydromet-recycling"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "bw-functional" },
     { name = "bw2calc" },
     { name = "bw2data" },
     { name = "bw2io" },
@@ -1280,6 +1298,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "bw-functional" },
     { name = "bw2calc" },
     { name = "bw2data" },
     { name = "bw2io" },
