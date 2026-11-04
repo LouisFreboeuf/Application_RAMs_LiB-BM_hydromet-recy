@@ -1,0 +1,5 @@
+// Add to your settings.json
+{
+  "markdown.validate.enabled": false,
+  "markdown.experimental.validate.enabled": false
+}
