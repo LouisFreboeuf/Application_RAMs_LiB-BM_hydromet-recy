@@ -8,6 +8,7 @@ dependencies = [
     "bw2calc",
     "bw2data",
     "bw2io",
+    "ecoinvent-interface",
     "ipykernel",
     "matplotlib",
     "mendeleev",

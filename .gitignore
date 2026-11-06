@@ -12,6 +12,12 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
+# Generated plots and images
+*.svg
+*.png
+*.eps
+*.csv
+
 # Python packaging and build artifacts
 build/
 dist/
