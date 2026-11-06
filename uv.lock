@@ -1474,7 +1474,7 @@ wheels = [
 ]
 
 [[package]]
-name = "resource-assessment-hydromet-recycling"
+name = "RAM-CS"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
