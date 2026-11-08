@@ -51,6 +51,7 @@ STYLE = {
     "figure.titleweight": "bold",
     "savefig.dpi": 300,
     "savefig.bbox": "tight",
+     "svg.fonttype": "none",
 }
 
 
