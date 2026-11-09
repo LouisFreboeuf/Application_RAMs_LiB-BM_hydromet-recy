@@ -49,8 +49,9 @@ STYLE = {
     "grid.alpha": 0.3,
     "figure.titlesize": 13,
     "figure.titleweight": "bold",
-    "savefig.dpi": 300,
+    "savefig.dpi": 600,
     "savefig.bbox": "tight",
+    "svg.fonttype": "none",
 }
 
 
