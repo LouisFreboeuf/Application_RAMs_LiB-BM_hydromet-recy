@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, please cite the associated research article
+  and this repository.
+title: >-
+  Quantifying resource dissipation applied to Li-ion battery recycling:
+  Integrating Statistical Entropy Analysis and Exergy Cost Theory Insights
+  into LCA
+type: dataset
+authors:
+  - family-names: Freboeuf
+    given-names: Louis
+    email: louis.freboeuf@u-bordeaux.fr
+    affiliation: Univ. Bordeaux, CNRS, Bordeaux INP, ISM, UMR 5255
+  - family-names: Perocillo
+    given-names: Yvonne Kaye
+    affiliation: Products, Environment, and Processes (PEPs), Chemical Engineering, University of Liège
+  - family-names: Sonnemann
+    given-names: Guido
+    affiliation: Univ. Bordeaux, CNRS, Bordeaux INP, ISM, UMR 5255
+  - family-names: Léonard
+    given-names: Angélique
+    affiliation: Products, Environment, and Processes (PEPs), Chemical Engineering, University of Liège
+  - family-names: Pirard
+    given-names: Eric
+    affiliation: Georesources, Mineral Engineering and Extractive Metallurgy (GeMMe), University of Liège
+  - family-names: Beylot
+    given-names: Antoine
+    affiliation: BRGM - French Geological Survey
+keywords:
+  - Resource dissipation
+  - Li-ion battery recycling
+  - Statistical Entropy Analysis
+  - Exergy Cost Theory
+  - Life Cycle Assessment
+  - Hydrometallurgy
+  - Critical raw materials
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-11-10"
+repository-code: "https://github.com/LouisFreboeuf/Resource_Assessment_Hydromet-Recycling-Case-Stuy"
+abstract: >-
+  Data and code accompanying the research article "Quantifying resource
+  dissipation applied to Li-ion battery recycling: Integrating Statistical
+  Entropy Analysis and Exergy Cost Theory Insights into LCA". The repository
+  contains the Statistical Entropy Analysis (SEA) of a simulated
+  hydrometallurgical Li-ion battery recycling flowsheet, the Exergy Cost
+  Analysis (ECA) thermoeconomic models, the Brightway2 LCA implementation
+  with exergy-based resource indicators (CExD, CExD+), and the contribution
+  analysis data exported from the Activity Browser (beta) "Tiers" panel.
