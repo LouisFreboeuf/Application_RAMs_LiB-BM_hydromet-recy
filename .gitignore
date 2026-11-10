@@ -15,6 +15,7 @@ ENV/
 # Generated plots and images
 *.svg
 *.png
+!figures/Figure_2_flowsheet-&-boundaries.png
 *.eps
 *.csv
 
