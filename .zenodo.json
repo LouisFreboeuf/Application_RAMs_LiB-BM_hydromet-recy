@@ -40,5 +40,5 @@
   "license": "cc-by-4.0",
   "upload_type": "dataset",
   "language": "eng",
-  "notes": "The ecoinvent 3.12 database and the Brightway2 project backup are not included due to licence restrictions. Related article: \u201cQuantifying resource dissipation applied to Li-ion battery recycling: Integrating Statistical Entropy Analysis and Exergy Cost Theory Insights into LCA\u201d (Freboeuf, Perocillo, Sonnemann, L\u00e9onard, Pirard, Beylot)."
+  "notes": "The ecoinvent 3.12 database and the Brightway project backup are not included due to licence restrictions. Related article: \u201cQuantifying resource dissipation applied to Li-ion battery recycling: Integrating Statistical Entropy Analysis and Exergy Cost Theory Insights into LCA\u201d (Freboeuf, Perocillo, Sonnemann, L\u00e9onard, Pirard, Beylot)."
 }
