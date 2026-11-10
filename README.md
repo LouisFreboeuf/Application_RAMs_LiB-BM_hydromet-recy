@@ -29,11 +29,11 @@ The repository is organised by assessment method. Each Jupyter notebook is self-
 │   ├── traditional_ECA.xlsx          Thermoeconomic ECA model of the flowsheet (traditional approach)
 │   ├── residue_ECA.xlsx              ECA model with residue/waste cost allocation
 │   └── ModelResults.xlsx             Exergy cost results (flows, streams, processes, unit costs)
-├── lca/                              Life Cycle Assessment (Brightway2 / ecoinvent 3.12)
+├── lca/                              Life Cycle Assessment (Brightway / ecoinvent 3.12)
 │   ├── LCAs.ipynb                    LCI creation (3 transcription types), LCIA methods
 │   │                                 (CExD, CExD+, GWP), LCIA results & contribution trees
 │   ├── biosphere_own.xlsx            Custom biosphere flows for the exergy-based indicators
-│   ├── readme.md                     Notes on restoring the Brightway2 project backup
+│   ├── readme.md                     Notes on restoring the Brightway project backup
 │   └── settings.json                 Editor settings (Markdown link validation off)
 ├── contrib_data/
 │   └── contrib_data.xlsx             Contribution analysis input data exported from the
@@ -48,7 +48,7 @@ The repository is organised by assessment method. Each Jupyter notebook is self-
 
 ## Requirements and how to run
 
-The notebooks run with Python 3.12 and the dependencies declared in `pyproject.toml` (Brightway2 stack: `bw2data`, `bw2io`, `bw2calc`, `bw-functional`, `wurst`, plus `pandas`, `numpy`, `matplotlib`, `openpyxl`, `mendeleev`). Reproduce the environment with [uv](https://docs.astral.sh/uv/):
+The notebooks run with Python 3.12 and the dependencies declared in `pyproject.toml` (Brightway stack: `bw2data`, `bw2io`, `bw2calc`, `bw-functional`, `wurst`, plus `pandas`, `numpy`, `matplotlib`, `openpyxl`, `mendeleev`). Reproduce the environment with [uv](https://docs.astral.sh/uv/):
 
 ```bash
 uv sync
@@ -58,7 +58,7 @@ uv run jupyter lab
 Notes:
 
 - `sea/main_sea.ipynb`, `sea/sea.ipynb` and `contrib_results.ipynb` only need the Excel files of this repository and run as-is.
-- `lca/LCAs.ipynb` additionally requires a licensed copy of **ecoinvent 3.12** and the Brightway2 project backup of the case study (see `lca/readme.md`). The backup archive and the ecoinvent database are **not** redistributed here because of licence restrictions; the notebook documents how to restore them (`bw2io.backup.restore_project_directory`).
+- `lca/LCAs.ipynb` additionally requires a licensed copy of **ecoinvent 3.12** and the Brightway project backup of the case study (see `lca/readme.md`). The backup archive and the ecoinvent database are **not** redistributed here because of licence restrictions; the notebook documents how to restore them (`bw2io.backup.restore_project_directory`).
 - Figures are exported by `figures_style.py` (`save_figure`) as SVG/EPS (+ CSV of the underlying data) into a local `results` folder.
 
 ## License and citation

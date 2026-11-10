@@ -45,6 +45,6 @@ abstract: >-
   Entropy Analysis and Exergy Cost Theory Insights into LCA". The repository
   contains the Statistical Entropy Analysis (SEA) of a simulated
   hydrometallurgical Li-ion battery recycling flowsheet, the Exergy Cost
-  Analysis (ECA) thermoeconomic models, the Brightway2 LCA implementation
+  Analysis (ECA) thermoeconomic models, the Brightway LCA implementation
   with exergy-based resource indicators (CExD, CExD+), and the contribution
   analysis data exported from the Activity Browser (beta) "Tiers" panel.
